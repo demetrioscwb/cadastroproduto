@@ -27,11 +27,7 @@ public class LoginController{
     private UsuarioService usuarioService;
 
 	private Result result;
-	
 
-	/**
-	 * @deprecated CDI eyes only
-	 */
 	protected LoginController() {
 		this(null);
 	}
